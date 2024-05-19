@@ -9,7 +9,7 @@ public class CountSort {
         int[] vetorC = new int[vetorA.length];
         int j = 0;
 
-        //oi
+        
         for(int i = 0; i < vetorB.length; i++){
             if(vetorB[i]){ //toda posição em que o vetorB possua "true" significa que é a uma posição presente no vetorA
                 vetorC[j] = i + 1; //então atríbuimos o valor do nosso vetorC (que será o vetor ordenado final) ao índice i, onde o vetorB for true
